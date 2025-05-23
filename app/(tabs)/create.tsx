@@ -1,13 +1,16 @@
 import { darkTheme } from '@/constants/theme';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function HomeScreen() {
+
+export default function CreateScreen() {
     return (
         <View style={[styles.container, { backgroundColor: darkTheme.background }]}>
-            <Text style={ [styles.text, { color: darkTheme.text }]}>Welcome to the Home Screen!</Text>
+            <Text style={[styles.text, { color: darkTheme.text }]}>Create</Text>
         </View>
     );
 }
+
+
 
 const styles = StyleSheet.create({
     container: {

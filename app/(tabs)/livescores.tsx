@@ -1,9 +1,10 @@
+import { darkTheme } from '@/constants/theme';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function LiveScoresScreen() {
     return (
-        <View style={styles.container}>
-            <Text style={styles.text}>Live Scores</Text>
+        <View style={[styles.container, { backgroundColor: darkTheme.background }]}>
+            <Text style={[styles.text, { color: darkTheme.text }]}>Livescores</Text>
         </View>
     );
 }

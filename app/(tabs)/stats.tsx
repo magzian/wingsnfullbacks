@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native';
+/* import { StyleSheet, Text, View } from 'react-native';
 
 export default function StatsScreen() {
     return (
@@ -18,4 +18,4 @@ const styles = StyleSheet.create({
         fontSize: 24,
         fontWeight: 'bold',
     },
-});
+}); */
