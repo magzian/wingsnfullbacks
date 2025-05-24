@@ -1,15 +1,14 @@
-import AntDesign from '@expo/vector-icons/AntDesign';
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { Tabs } from "expo-router";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native";
 
 export default function TabsLayout() {
     return (
         <View style={{ flex: 1, backgroundColor: "#181A20" }}>
             {/* Top Bar */}
             <View style={styles.topBar}>
-                <Text style={styles.topBarText}>Wings and Fullbacks</Text>
-            </View>
+                
+            </View> 
             {/* Tab Navigator */}
             <Tabs
                 screenOptions={{
@@ -48,7 +47,7 @@ export default function TabsLayout() {
                         ),
                     }}
                 />
-                <Tabs.Screen
+                {/* <Tabs.Screen
                     name="create"
                     options={{
                         title: "Create",
@@ -56,7 +55,7 @@ export default function TabsLayout() {
                             <AntDesign name="plus" size={24} color={color} />
                         ),
                     }}
-                />
+                /> */}
                 <Tabs.Screen
                     name="livescores"
                     options={{
@@ -73,7 +72,7 @@ export default function TabsLayout() {
 
 const styles = StyleSheet.create({
     topBar: {
-        height: 100,
+        height: 60,
         backgroundColor: "#23252B",
         justifyContent: "center",
         alignItems: "center",
